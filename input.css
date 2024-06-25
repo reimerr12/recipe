@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.recipe{
+    @apply bg-white flex flex-col p-4 border-2 border-orange-400 rounded-lg hover:bg-yellow-400 text-lg font-bold hover:scale-105 duration-200 ease-in-out shadow-sm shadow-gray-400 hover:text-white cursor-pointer 
+}
+
+.btn1{
+    @apply bg-red-500 py-2 px-4  text-lg rounded-md cursor-pointer  hover:bg-white hover:text-black  capitalize
+}
+
+.name{
+    @apply text-4xl font-bold text-yellow-400 text-center
+}
+.Ingredient{
+    @apply text-lg font-serif 
+}
+.instructions{
+    @apply text-lg font-serif whitespace-pre-line
+}
